@@ -23,19 +23,19 @@
 for (var i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
-    document.getElementById("stamp").innerHTML = "<li>" + "FizzBuzz" + "</li>";
+    document.getElementById("stamp").innerHTML += "<li>" + "FizzBuzz" + "</li>";
 
 } else if (i % 5 == 0) {
   console.log("Buzz");
-  document.getElementById("stamp").innerHTML = "<li>" + "Buzz" + "</li>";
+  document.getElementById("stamp").innerHTML += "<li>" + "Buzz" + "</li>";
 
 } else if (i % 3 == 0) {
   console.log("Fizz");
-  document.getElementById("stamp").innerHTML = "<li>" + "Fizz" + "</li>";
+  document.getElementById("stamp").innerHTML += "<li>" + "Fizz" + "</li>";
 
 } else {
   console.log(i);
-  document.getElementById("stamp").innerHTML = "<li>" + i + "</li>";
+  document.getElementById("stamp").innerHTML += "<li>" + i + "</li>";
 }
 }
 
