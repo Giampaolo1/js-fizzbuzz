@@ -23,19 +23,28 @@
 for (var i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
+    document.getElementById("stamp").innerHTML = "<li>" + "FizzBuzz" + "</li>";
+
 } else if (i % 5 == 0) {
   console.log("Buzz");
+  document.getElementById("stamp").innerHTML = "<li>" + "Buzz" + "</li>";
+
 } else if (i % 3 == 0) {
   console.log("Fizz");
+  document.getElementById("stamp").innerHTML = "<li>" + "Fizz" + "</li>";
+
 } else {
   console.log(i);
+  document.getElementById("stamp").innerHTML = "<li>" + i + "</li>";
 }
 }
-// annidare if?
 
-// ma per i multipli di 3 stampi “Fizz” al posto del numero
-// e per i multipli di 5 stampi Buzz.
-// else, stamp the number
+// OUTPUT
+// document.getElementById('stamp').innerHTML =  i;
+
+
+
+
 
 
 
