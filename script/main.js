@@ -26,9 +26,9 @@ for (var i = 1; i <= 100; i++) {
 
 // ma per i multipli di 3 stampi “Fizz” al posto del numero
 i = false
-if ((i % 3) === 0) {
-  i=true;
+  if (i % 3 === 0) {
+  i = true;
 }
-if (i == true) {
-  console.log("fizz");
+if (i === true) {
+  console.log([i], "fizz");
 }
