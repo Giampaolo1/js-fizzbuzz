@@ -20,6 +20,8 @@
 
 // Scrivi un programma che stampi i numeri da 1 a 100,
 
+function fxStart() {
+
 for (var i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
@@ -36,6 +38,7 @@ for (var i = 1; i <= 100; i++) {
 } else {
   console.log(i);
   document.getElementById("stamp").innerHTML += "<li>" + i + "</li>";
+}
 }
 }
 
